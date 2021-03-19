@@ -15,6 +15,8 @@
 		07DB525126029D410079B3B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DB524F26029D410079B3B8 /* LaunchScreen.storyboard */; };
 		07DB525C26029D420079B3B8 /* WelcomeB27Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB525B26029D420079B3B8 /* WelcomeB27Tests.swift */; };
 		07DB526726029D420079B3B8 /* WelcomeB27UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB526626029D420079B3B8 /* WelcomeB27UITests.swift */; };
+		07DB5E8B2603CAF900AA880F /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB5E8A2603CAF900AA880F /* DetailedViewController.swift */; };
+		07DB5E962603E31D00AA880F /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB5E952603E31D00AA880F /* SportsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		07DB526226029D420079B3B8 /* WelcomeB27UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeB27UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DB526626029D420079B3B8 /* WelcomeB27UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeB27UITests.swift; sourceTree = "<group>"; };
 		07DB526826029D420079B3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DB5E8A2603CAF900AA880F /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		07DB5E952603E31D00AA880F /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				07DB524426029D400079B3B8 /* AppDelegate.swift */,
 				07DB524626029D400079B3B8 /* SceneDelegate.swift */,
 				07DB524826029D400079B3B8 /* ViewController.swift */,
+				07DB5E8A2603CAF900AA880F /* DetailedViewController.swift */,
 				07DB524A26029D400079B3B8 /* Main.storyboard */,
+				07DB5E952603E31D00AA880F /* SportsViewController.swift */,
 				07DB524D26029D410079B3B8 /* Assets.xcassets */,
 				07DB524F26029D410079B3B8 /* LaunchScreen.storyboard */,
 				07DB525226029D410079B3B8 /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				07DB524926029D400079B3B8 /* ViewController.swift in Sources */,
 				07DB524526029D400079B3B8 /* AppDelegate.swift in Sources */,
+				07DB5E962603E31D00AA880F /* SportsViewController.swift in Sources */,
+				07DB5E8B2603CAF900AA880F /* DetailedViewController.swift in Sources */,
 				07DB524726029D400079B3B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

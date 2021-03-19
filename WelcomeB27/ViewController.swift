@@ -10,32 +10,43 @@ import UIKit
 class ViewController: UIViewController {
 
     var i = 0;
-    var check = false;
-    @IBOutlet weak var counter: UILabel!
+    var check:Bool = false;
+
     
     
-    @IBAction func bttn(_ sender: Any) {
-        
-        self.view.backgroundColor = UIColor.randomColor();
-        if(i == 15){
-            check = true;
-        }
-        else if(i == 0){
-            check = false;
-        }
-        if(check == true){
-            i = i - 1;
-        }else{
-            i = i + 1;
-        }
-        counter.text = "\(i)";
-        
-        
+    @IBAction func Slide(_ sender: UISlider) {
+        view.alpha = CGFloat(sender.value)
     }
+    
+   
+    
+   // view.alpha = CGFloat(sender.value)
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }  
+    }
+    
+    @IBAction func subjectClicked(_ sender: UIButton) {
+        
+        let st = UIStoryboard.init(name: "Main", bundle: nil)
+        
+        let vc = st.instantiateViewController(identifier: "DetailedViewController") as! DetailedViewController
+       
+            
+        if sender.titleLabel?.text == "Cricket" {
+            //nned ref story
+            vc.subjectTitle = "Cricket"
+            //once vc ,push vc to nc
+            
+        } else {
+            vc.subjectTitle = "Badminton"
+
+        }
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    
 }
 
 //Inheriting from UIColor
